@@ -1,14 +1,14 @@
 # 과제 1
 
-**2) 버튼을 클릭하면 해당 페이지로, 뒤로 가기 버튼을 눌렀을 때 이전 페이지로 이동해야 한다.**
+**"버튼을 클릭하면 해당 페이지로, 뒤로 가기 버튼을 눌렀을 때 이전 페이지로 이동해야 한다"** 에 대한 추가 공부.
 
-- 힌트) `window.onpopstate`, `window.location.pathname` History API(`pushState`)** 에 대한 추가 공부.
+힌트) `window.onpopstate`, `window.location.pathname` History API(`pushState`) 
 
 <br>
 
 ### window.onpopstate  
 
-`window.onpopstate = function() { };`
+기본 구문 : `window.onpopstate = function() { };`
 
 `window` 인터페이스의 `popstate` 이벤트는 사용자의 세션 기록 탐색으로 인해 현재 활성화된 기록 항목이 바뀔 때 발생한다.
 크롬은 페이지 로딩시에 `popstate` 이벤트를 발생시킨다.
@@ -24,7 +24,7 @@
 Prefix 없이 `location`만 사용가능하다.
 
 여러 프로퍼티 중 `window.location.pathname` 은 현재 페이지의 경로와 파일이름을 반환한다.
-예를 들어 http://google.com/login/1 라는 URL에선 /login/1 이 반환됩니다.
+예를 들어 http://google.com/login/1 라는 URL에선 /login/1 이 반환된다.
 
 <br>
 
