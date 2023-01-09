@@ -1,0 +1,27 @@
+.container {
+    min-height: 300px;
+    min-width: 300px;
+    padding: 30px 0;
+}
+.auth-form {
+    display: flex;
+    flex-direction: column;
+}
+.auth-input {
+    margin-bottom: 10px;
+    height: 1.5rem;
+}
+.auth-input:last-of-type {
+    margin-bottom: 30px;
+}
+.auth-button {
+
+}
+.toggle-button {
+    font-size: 0.8rem;
+    text-decoration: underline;
+    background-color: transparent;
+}
+.toggle-button:focus {
+    outline: none;
+}
